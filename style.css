@@ -1,0 +1,95 @@
+/***** body *****/
+body{
+  font-family: 'Poppins', sans-serif;
+  width: 1440px;
+  margin: 100px auto;
+  background-color: #f4f4f4;
+  font-size: 15px;
+  line-height: 1.5;
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+}
+span,p{
+  font-weight: 200;
+}
+
+/***** top container *****/
+
+.top-container{
+  width: 35%;
+  margin: 50px auto;
+}
+h1{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+/***** top container *****/
+
+.middle-container{
+  margin: 100px auto;
+}
+.middle-container h2{
+  font-size: 22px;
+}
+.middle-container img{
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+.tools {
+    width: 25%;
+    height: 220px;
+    text-align: left;
+    background: #fff;
+    box-shadow: 1px 1px 10px;
+    padding: 0 30px 30px 30px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+.wrap{
+  width: 90%;
+}
+.right-box{
+  border-top: 5px solid hsl(180, 62%, 55%);
+  top: 150px;
+}
+.left-box {
+    border-top: 5px solid hsl(212, 86%, 64%);
+
+}
+.mid-top {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    /* bottom: 150px;
+    left: 150px; */
+
+}
+.mid-bottom {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    top: 150px;
+}
+
+/***** responsive for mobile *****/
+
+@media screen and (max-width: 375px) {
+  body{
+    width: 375px;
+  }
+  .top-container{
+    width: 98%;
+    margin: 50px 20px;
+  }
+  .tools {
+      width: 98%;
+      display: block;
+      margin: 30px auto;
+  }
+  .right-box{
+    top: 0;
+  }
+  .mid-bottom {
+      top: 0;
+  }
+}
