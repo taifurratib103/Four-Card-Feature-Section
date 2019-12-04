@@ -31,6 +31,7 @@ h1{
 }
 .middle-container h2{
   font-size: 22px;
+  color: hsl(234, 12%, 34%);
 }
 .middle-container img{
   position: absolute;
